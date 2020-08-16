@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6815248599506387185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7552529595679404770}
+  - component: {fileID: 1555148258162460884}
+  - component: {fileID: 5091449613426930733}
+  - component: {fileID: 3293623813133522713}
+  - component: {fileID: 3293623813133522719}
+  - component: {fileID: 3293623813133522718}
+  - component: {fileID: 3293623813133522717}
+  m_Layer: 0
+  m_Name: EB522
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7552529595679404770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_LocalRotation: {x: -0.034325864, y: 0.94270694, z: -0.315616, w: -0.102527216}
+  m_LocalPosition: {x: 0.479, y: 0.645, z: 1.921}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 37.021, y: 192.41399, z: 0}
+--- !u!33 &1555148258162460884
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Mesh: {fileID: -3243264717552843444, guid: c5619b2477f3f2949aa01cb30f4c51fd, type: 3}
+--- !u!23 &5091449613426930733
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8161352100395104111, guid: c5619b2477f3f2949aa01cb30f4c51fd, type: 3}
+  - {fileID: 2100000, guid: 20b68c5ba10cd2640baa6f46885bf80c, type: 2}
+  - {fileID: 2100000, guid: 0031e0ef7649b924399d140706677c5f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &3293623813133522713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.55997765, y: 0.050178073, z: 0.3297922}
+  m_Center: {x: 2.2213542e-10, y: 0.02308902, z: 0.01490725}
+--- !u!114 &3293623813133522719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72b3f4c374d0ba47824d73874ac6fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3293623813133522718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385f48b79a6b48c438fa1b07f549fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectURL: 47.106.255.216:8099/EB522/index.html
+  ChName: "\u7535\u5B50\u5A74\u513F\u79E4"
+  EnName: Digital Baby Scale
+  DoubleClickTimeout: 0.2
+  ChIntro: "\u4F7F\u7528ABS\u73AF\u4FDD\u5851\u6599\u627F\u8F7D\u9762\r\n\u6700\u5927\u79F0\u91CD:2kg/3kg\r\n\u5206\u5EA6\u503C:0.1g/1g\r\n\u91C7\u7528\u9AD8\u7CBE\u51C6\u4F20\u611F\u5668\r\n\u914D\u5907\u4E00\u7247\u9502\u7535\u6C60(CR2032)\r\n\u5177\u6709\u7535\u538B\u4E0D\u8DB3\u53CA\u8D85\u8F7D\u63D0\u793A\u529F\u80FD\r\n\u5177\u6709\u81EA\u52A8\u5173\u673A\u529F\u80FD\r\n\u5177\u6709\u53BB\u76AE\u529F\u80FD\r"
+  EnIntro: "Max capacity:20kg\r\nDivision:5g\r\n72x28mm LCD display \r\nPlastic housing\r\nKey-press
+    on\r\nTara function\r\n1xCR2032 battery(included)                    \r\nEquipped
+    with high strain gauge sensors\r\nWeighing unit switch between kg/ lb / st\r\nAutomatic
+    zero and switch off\r\nLow battery and overload indication\r"
+  texture: {fileID: 2800000, guid: 892477a0d047d534db0f3cb965aa8e31, type: 3}
+  MaintTitleFontSize_Ch: 28
+  MaintTitleFontSize_En: 16
+  IntroOffset: 115
+  MainTitleOffset_Ch: 0
+  MainTitleOffset_En: 0
+--- !u!114 &3293623813133522717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6815248599506387185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []

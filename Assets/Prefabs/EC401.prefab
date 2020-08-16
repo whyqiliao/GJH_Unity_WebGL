@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3438453704979341587
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1868024856218276608}
+  - component: {fileID: 7257418904093501750}
+  - component: {fileID: 4002294214140974543}
+  - component: {fileID: 6671584198657616626}
+  - component: {fileID: 6671584198657616620}
+  - component: {fileID: 6671584198657616621}
+  - component: {fileID: 6671584198657616622}
+  m_Layer: 0
+  m_Name: EC401
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1868024856218276608
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_LocalRotation: {x: 0.00000005921802, y: 0.9486775, z: 0.3162452, w: -0.00000017764319}
+  m_LocalPosition: {x: 1.153, y: 0.7438, z: -1.4014}
+  m_LocalScale: {x: 1.4100869, y: 1.4100869, z: 1.4100869}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -36.872, y: 180.00002, z: 0}
+--- !u!33 &7257418904093501750
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Mesh: {fileID: 4154864533425439726, guid: 3e48f468431017a40bc0ccb0a01197de, type: 3}
+--- !u!23 &4002294214140974543
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7d1c8d152a0dbe84d8f3017d77e509ff, type: 2}
+  - {fileID: 2100000, guid: 9918e12bb69bbe144b8295adc1c72901, type: 2}
+  - {fileID: 2100000, guid: 7c1f73bb174b2f041bf59a7dd4017f7a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &6671584198657616626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.1458995, y: 0.01850003, z: 0.20000006}
+  m_Center: {x: -0.00044973567, y: -0.004150006, z: 0}
+--- !u!114 &6671584198657616620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385f48b79a6b48c438fa1b07f549fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectURL: 47.106.255.216:8099/EC401/index.html
+  ChName: "\u5BB6\u7528\u7535\u5B50\u53A8\u623F\u79E4 \u8FDC\u7EA2\u5916"
+  EnName: Digital Kitchen Scale Infrared
+  DoubleClickTimeout: 0.2
+  ChIntro: "\u8FDC\u7EA2\u5916\u611F\u5E94\u8F7B\u677E\u8FDB\u884C\u53BB\u76AE\uFF0C\u5355\u4F4D\u8F6C\u6362\r\n\u6700\u5927\u79F0\u91CD:5kg,\r\n\u5206\u5EA6\u503C:1g\r\n\u91C7\u7528\u9AD8\u7CBE\u51C6\u4F20\u611F\u5668\r\n\u4F7F\u75282xAAA\u7535\u6C60\r\n\u5177\u6709\u7535\u538B\u4E0D\u8DB3\u53CA\u8D85\u8F7D\u63D0\u793A\u529F\u80FD\r\n\u5177\u6709\u81EA\u52A8\u5173\u673A\u529F\u80FD\r\n\u5177\u6709\u53BB\u76AE\u529F\u80FD\r"
+  EnIntro: "Max Capacity: 5kg\r\nDivision: 1g\r\nUnits available: g,oz,kg,lb,oz,fl'oz\r\n53x21mm
+    LCD digits\r\n3mm tempered glass\r\n2x AAA batteries excluded\r\nEquipped with
+    precision strain gauge sensor\r\nPress on with infrared for tare and switch units\r\nLow
+    battery and overload indication\r"
+  texture: {fileID: 2800000, guid: 892477a0d047d534db0f3cb965aa8e31, type: 3}
+  MaintTitleFontSize_Ch: 28
+  MaintTitleFontSize_En: 16
+  IntroOffset: 115
+  MainTitleOffset_Ch: 0
+  MainTitleOffset_En: 0
+--- !u!114 &6671584198657616621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72b3f4c374d0ba47824d73874ac6fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6671584198657616622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3438453704979341587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []

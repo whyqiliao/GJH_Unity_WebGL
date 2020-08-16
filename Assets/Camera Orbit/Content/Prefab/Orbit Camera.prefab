@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 2000000}
+  - component: {fileID: 12400000}
+  - component: {fileID: 8100000}
+  - component: {fileID: 11400000}
+  - component: {fileID: 11460418}
+  m_Layer: 0
+  m_Name: Orbit Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: -0.010913814, y: 0.028090267, z: -0.00030671127, w: -0.9995458}
+  m_LocalPosition: {x: 0.3600031, y: 0.12000069, z: -6.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2000000
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.18339099, g: 0.19080572, b: 0.2352941, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &12400000
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+--- !u!81 &8100000
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ecae809558b41488665454ef725014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Interact: 1
+  Target: {fileID: 0}
+  TargetOffset: {x: 0, y: 0.86, z: 0}
+  isForMobile: 0
+  executeInEditMode: 1
+  Distance: 2
+  SwichtSpeed: 2
+  DistanceClamp: {x: 0, y: 4.8079967}
+  ClampVertical: 0
+  ClampHorizontal: 0
+  YLimitClamp: {x: 0, y: 90}
+  XLimitClamp: {x: 360, y: 360}
+  SpeedAxis: {x: 50, y: 50}
+  LockCursorOnRotate: 0
+  RequiredInput: 1
+  RotateInputKey: 5
+  InputMultiplier: 0.02
+  InputLerp: 7
+  useKeys: 0
+  MovementType: 0
+  useZoomOutEffect: 0
+  TouchZoomAmount: -5
+  LerpSpeed: 5.29
+  OutInputSpeed: 25
+  useStartZoomEffect: 0
+  StartFov: 179
+  FovLerp: 7
+  DelayStartFoV: 1.2
+  ScrollSensitivity: 5
+  ZoomSpeed: 7
+  AutoRotate: 1
+  AutoRotationType: 0
+  AutoRotSpeed: 5
+  DetectCollision: 0
+  TeleporOnHit: 0
+  CollisionRadius: 0.3
+  DetectCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  FadeOnStart: 1
+  FadeSpeed: 0.2
+  FadeColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!114 &11460418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b53a10e058e6bc444895d18f06c514fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_CameraOrbit: {fileID: 11400000}
+  MovementMultiplier: {x: 1.1, y: 1.1}
+  CancelRotateOnPinch: 1
+  m_PinchZoomSpeed: 0.1

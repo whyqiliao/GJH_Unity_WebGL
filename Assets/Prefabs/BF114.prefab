@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1572966540687528397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2562290236312232926}
+  - component: {fileID: 6833108369773468136}
+  - component: {fileID: 1002221000627283217}
+  - component: {fileID: 7419013712857119259}
+  - component: {fileID: 7419013712857119249}
+  - component: {fileID: 7419013712857119248}
+  - component: {fileID: 7419013712857119255}
+  m_Layer: 0
+  m_Name: BF114
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2562290236312232926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_LocalRotation: {x: -0.3162452, y: 0, z: 0, w: 0.9486775}
+  m_LocalPosition: {x: -1.061, y: 0.7527, z: 1.8075}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -36.872, y: 0, z: 0}
+--- !u!33 &6833108369773468136
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Mesh: {fileID: -3249086702871629942, guid: 5b812e91f7760af4087df157df0891be, type: 3}
+--- !u!23 &1002221000627283217
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 7b000944815a21b4caa05bd652f7cd59, type: 2}
+  - {fileID: 2100000, guid: b856a019a46647c498a15ef0d6de6338, type: 2}
+  - {fileID: 2100000, guid: c94645a292f60e5478ba5ebb4c1ab66f, type: 2}
+  - {fileID: 2100000, guid: 95e939e43561db24e90dbb634e1fbcad, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &7419013712857119259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32999998, y: 0.023700017, z: 0.30200014}
+  m_Center: {x: 0, y: -0.0053500016, z: 0}
+--- !u!114 &7419013712857119249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 385f48b79a6b48c438fa1b07f549fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObjectURL: www.denexr.com/BF114
+  ChName: "\u4F53\u91CD\u79E4"
+  EnName: Bathroom Scales
+  DoubleClickTimeout: 0.2
+  ChIntro: "\u6700\u5927\u79F0\u91CD:180KG\r\n\u6700\u5C0F\u5206\u5EA6\u503C:100g\r\nLCD\u84DD\u5149\u8D85\u5927\u663E\u793A\u5C4F\r\n\u9AD8\u5F3A\u5EA6\u94A2\u5316\u73BB\u7483\u627F\u8F7D\u9762\r\n\u914D\u5907\u9AD8\u7CBE\u5EA6\u4F20\u611F\u5668\r\n\u4F7F\u75283*AAA\u5E72\u7535\u6C60\r\n\u5177\u6709\u6E29\u5EA6\u663E\u793A,\u7535\u91CF\u663E\u793A\r\n\u5177\u6709\u81EA\u52A8\u4E0A\u79E4,\u81EA\u52A8\u5F52\u96F6\u548C\u81EA\u52A8\u5173\u673A\u529F\u80FD\r\n\u5177\u6709\u4F4E\u7535\u538B\u548C\u8D85\u8F7D\u63D0\u793A\u529F\u80FD\r"
+  EnIntro: "Max capacity:180kg/396lb/28.3st\r\nDivision:100g/0.2lb\r\n94x51mm LCD
+    display with blue backlight\r\n6mm tempered glass\r\n3xAAA batteries(excluded)
+    \r\nAuto on                      \r\nEquipped with high strain gauge sensors\r\nWeighing
+    unit switch between kg/ lb / st\r\nAutomatic zero and switch off\r\nLow battery
+    and overload indication\r"
+  texture: {fileID: 2800000, guid: 892477a0d047d534db0f3cb965aa8e31, type: 3}
+  MaintTitleFontSize_Ch: 28
+  MaintTitleFontSize_En: 16
+  IntroOffset: 115
+  MainTitleOffset_Ch: 0
+  MainTitleOffset_En: 0
+  IntroBoxScale: 300
+  CustomFont: {fileID: 0}
+--- !u!114 &7419013712857119248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72b3f4c374d0ba47824d73874ac6fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7419013712857119255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572966540687528397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbf3575480402db40813e763382412fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: 0
+  eraseRenderer: 0
+  originalLayer: 0
+  originalMaterials: []
